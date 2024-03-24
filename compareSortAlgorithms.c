@@ -302,8 +302,7 @@ int main(void)
     printf("\textra memory allocated\t: %d\n",extraMemoryAllocated);
     printArray(pDataCopy, dataSz);
 
-    //There is no need to free the memory as it's already freed in the code above.   
-    //DeAlloc(pDataCopy);
+    DeAlloc(pDataCopy);
     //DeAlloc(pDataSrc);
   }
 
